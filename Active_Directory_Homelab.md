@@ -165,7 +165,7 @@ Proxmox VE was installed using **Ventoy** — a tool that allows multiple ISOs t
 **Proxmox bare metal specs:**
 | Property | Value |
 |---|---|
-| CPU | 4 cores |
+| CPU | 6 cores |
 | RAM | 8 GB |
 | Storage | 512 GB SSD |
 | Network | Bridged via USB-C ethernet adapter |
