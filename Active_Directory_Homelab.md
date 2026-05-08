@@ -199,7 +199,7 @@ Proxmox VE was installed using **Ventoy** — a tool that allows multiple ISOs t
 | Device | IP | Role |
 |---|---|---|
 | Home router | `192.168.1.1` | Home network gateway |
-| Proxmox host | `192.168.1.25` | Hypervisor management |
+| Proxmox host | `192.168.1.25` | Hypervison management |
 | pfSense WAN | `192.168.1.26` | Lab WAN interface |
 | pfSense LAN | `10.10.10.1` | Lab default gateway |
 | DC-01 | `10.10.10.10` | Primary DC · DNS server |
@@ -301,7 +301,7 @@ After installation, pfSense console was used to configure interfaces:
 
 **WAN:**
 - Interface: `vtnet0`
-- Mode: DHCP — receives IP from home router automatically
+- Mode: Static - Within DHCP range so IPReserved VIA Home Router configuration
 - Result: `192.168.1.26/24`
 
 **LAN:**
@@ -315,7 +315,7 @@ After installation, pfSense console was used to configure interfaces:
 
 **Final console state:**
 ```
-WAN (wan) -> vtnet0 -> v4/DHCP4: 192.168.1.26/24
+WAN (wan) -> vtnet0 -> v4: 192.168.1.26/24
 LAN (lan) -> vtnet1 -> v4: 10.10.10.1/24
 ```
 
@@ -324,11 +324,11 @@ LAN (lan) -> vtnet1 -> v4: 10.10.10.1/24
 Accessed at `https://10.10.10.1` from WIN-CLIENT after it received its DHCP lease. Default credentials: `admin` / `pfsense` — changed immediately.
 
 Setup wizard configured:
-- Hostname: `pfSense`
+- Hostname: `Kracken`
 - Domain: `davy.local`
-- DNS servers: forwarded to ISP
+- DNS servers: 192.168.1.1 - Reachable Through vtnet0(WAN)
 - Timezone set
-- WAN DHCP confirmed
+- WAN DHCP confirmed -Range 10.10.10.100-10.10.10.200
 - LAN IP confirmed `10.10.10.1`
 
 **Connectivity verification:**
