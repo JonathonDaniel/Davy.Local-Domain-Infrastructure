@@ -140,7 +140,7 @@ After diagnosing the root cause of all Act 1 problems — Proxmox is a Type 1 hy
 
 | Property | Value |
 |---|---|
-| CPU | Intel — 4 cores |
+| CPU | Intel — 6 cores |
 | RAM | 8 GB DDR4 |
 | Storage | 512 GB SSD |
 | Network | No built-in ethernet port |
