@@ -24,7 +24,7 @@ Every component was configured from scratch — no pre-built templates, no short
 ## Lab Environment
 
 **Hypervisor:** Proxmox VE 9.1.1 — bare metal  
-**Host hardware:** Dell Inspiron 15 3530 — 4 cores · 8 GB RAM · 512 GB SSD  
+**Host hardware:** Dell Inspiron 15 3530 — 6 cores · 8 GB RAM · 512 GB SSD  
 **Domain:** `davy.local`  
 **Lab subnet:** `10.10.10.0/24` (fully isolated from home network)
 
