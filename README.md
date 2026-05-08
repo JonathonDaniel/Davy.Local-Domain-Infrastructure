@@ -167,7 +167,7 @@ Full build log including timestamped attempt history, failure analysis, VM speci
 **Jonathon Alexander Daniel**  
 Self-directed IT infrastructure and cybersecurity learner  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/https://www.linkedin.com/in/jonathon-daniel-624125327)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/onathon-daniel-624125327)
 
 ---
 
